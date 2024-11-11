@@ -134,3 +134,126 @@
 //         return false;
 //     }
 // };
+
+
+
+
+// ______________________________________________________
+
+
+// Another 10 Codewars Challenege
+
+
+// let num = 10;
+// let sum = 0;
+// for (i = 1; i <= num; i++) {
+//     if(num % i == 0){
+//         sum++
+//     }
+// }
+
+// console.log(sum)
+
+
+
+// function oddOrEven(arr) {
+//     let sum = 0;
+//     arr.map((i) => sum += i)
+//     if (sum % 2 == 0) {
+//         return "even"
+//     }
+//     else {
+//         return "odd"
+//     }
+// }
+
+// oddOrEven([1, 2, 3])
+
+
+// function arrayPlusArray(arr1, arr2) {
+//     let newArray = arr1.concat(arr2);
+//     let sum = 0;
+//     newArray.map((i) => sum += i)
+//     return sum
+// }
+
+
+// function smallEnough(a, limit) {
+//     return a.every(n => n <= limit);
+// }
+
+
+// function sumMix(x) {
+//     let sum = 0;
+//     x.map((i) => {
+//         if (typeof i === "string") {
+//             sum += Number(i)
+//         }
+//         else {
+//             sum += i
+//         }
+//     })
+//     return sum
+// }
+
+
+// function findShort(s) {
+//     let arr = s.split(" ").map((i) => i.length);
+//     let sm = Math.min(...arr)
+//     return sm
+// }
+
+
+// function findAverage(array) {
+//     let sum = 0;
+
+//     if (array.length === 0) {
+//         return 0
+//     }
+//     else {
+//         array.map((i) => sum += i)
+//         return sum / array.length
+//     }
+
+// }
+
+
+// function lovefunc(flower1, flower2) {
+//     // moment of truth
+//     if (flower1 % 2 != 0 && flower2 % 2 == 0 || flower1 % 2 == 0 && flower2 % 2 != 0) {
+//         return true
+//     }
+//     else {
+//         return false
+//     }
+// }
+
+
+// function areYouPlayingBanjo(name) {
+//     if (name[0] == 'R' || name[0] == 'r') {
+//         return name + ' plays banjo'
+//     } else {
+//         return name + ' does not play banjo'
+//     }
+// }
+
+
+// const reverseSeq = n => {
+//     let arr = [];
+//     for (i = 1; i <= n; i++) {
+//         arr.unshift(i);
+//     }
+//     return arr;
+// };
+
+
+// function invert(array) {
+//     let newArr = array.map(i => i * -1)
+//     return newArr;
+// }
+
+
+// function doubleInteger(i) {
+//     // i will be an integer. Double it and return it.
+//     return i * 2;
+// }
