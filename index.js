@@ -257,3 +257,47 @@
 //     // i will be an integer. Double it and return it.
 //     return i * 2;
 // }
+
+
+
+
+
+// November 26th 
+// _____________________
+// function reverse(string){
+//   return string.split("").reverse().join("")
+// }
+
+// let result = reverse("sanjar")
+// console.log(result)
+
+// __________________
+// let arr = [1, 2, 3, 4]
+// // console.log(Math.max(...arr))
+
+// arr.map((i) => {
+//     console.log(i)
+// })
+
+
+// ___________________
+// function FizBuzz(n) {
+//     if (n % 5 == 0 && n % 3 == 0) {
+//         console.log("FizBuzz")
+//     }
+//     else {
+//         if (n % 5 == 0) {
+//             console.log("Buzz")
+//         }
+//         else if (n % 3 == 0) {
+//             console.log("Fiz")
+//         }
+//     }
+// }
+
+// FizBuzz(15)
+
+
+//___________________
+    
+    
