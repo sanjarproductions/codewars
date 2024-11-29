@@ -299,5 +299,24 @@
 
 
 //___________________
-    
+
+// let BASE_URL = "https://jsonplaceholder.typicode.com";
+
+// function name(number){ // square the number
+//     return number**2
+// }
+// let res = name(4)
+// console.log(res)
+
+
+// _____
+// fetch("https://jsonplaceholder.typicode.com/posts")
+//     .then(response => response.json())
+//     .then(data => console.log(data))
+
+
+//______
+// axios(`${BASE_URL}/posts`)
+    // .then(response => console.log(response.data))
+
     
